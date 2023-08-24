@@ -6,15 +6,15 @@
 
 - 🔭 I’m currently working on Making my problem solving skills better
 
-- 🌱 I’m currently learning Flutter
+- 🌱 I’m currently learning Python & DSA
 
 - 👨‍💻 All of my projects are available at [Aditya-Nagariya](https://github.com/Aditya-Nagariya)
   
-- 🤔 I’m looking for help with ...Android/IOS/Flutter
+- 🤔 I’m looking for help with ...Competative Programming
 
 - 💬 Ask me about Anything
 
-- 📫 How to reach me niscivous@gmail.com
+- 📫 How to reach me adityanagariyav@gmail.com
   
 - ⚡ Fun fact: “Design is not just what it looks like and feels like. Design is how it works.”
 
