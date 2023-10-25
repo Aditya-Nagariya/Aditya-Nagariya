@@ -1,66 +1,89 @@
-<!-- Animated Header -->
-<h1 align="center">
-  Hi 👋, I'm Aditya Nagariya
-</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Nagariya's GitHub Profile</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
 
-<h3 align="center">
-  <i>Stay Hungry, Stay Foolish</i>
-</h3>
+        h1 {
+            font-size: 36px;
+            color: #333;
+            margin-top: 50px;
+            animation: fadeIn 1s ease-in-out;
+        }
 
-<p align="center">
-  <a href="https://github.com/Aditya-Nagariya">
-    <img src="https://your-image-url-here.com" alt="Aditya Nagariya" width="200" height="200" />
-  </a>
-</p>
+        p {
+            font-size: 18px;
+            color: #666;
+            animation: fadeIn 2s ease-in-out;
+        }
 
-<!-- Introduction -->
-- 🔭 I’m currently working on improving my problem-solving skills.
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateX(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Hi 👋, I'm Aditya Nagariya</h1>
+    <p>Stay Hungry, Stay Foolish</p>
+    <p>
+        <a href="https://github.com/Aditya-Nagariya" target="_blank">My GitHub Profile</a>
+    </p>
+    <p>
+        🔭 I’m currently working on Making my problem-solving skills better
+    </p>
+    <p>
+        🌱 I’m currently learning Python & DSA
+    </p>
+    <p>
+        👨‍💻 All of my projects are available at <a href="https://github.com/Aditya-Nagariya">Aditya-Nagariya</a>
+    </p>
+    <p>
+        🤔 I’m looking for help with ...Competitive Programming
+    </p>
+    <p>
+        💬 Ask me about Anything
+    </p>
+    <p>
+        📫 How to reach me <a href="mailto:adityanagariyav@gmail.com">adityanagariyav@gmail.com</a>
+    </p>
+    <p>
+        ⚡ Fun fact: "Design is not just what it looks like and feels like. Design is how it works."
+    </p>
 
-- 🌱 I’m currently learning Python and Data Structures & Algorithms (DSA).
+    <!-- JavaScript Animation -->
+    <script>
+        // Function to change the background color
+        function changeBackgroundColor() {
+            const colors = ["#ff5733", "#33ff57", "#5733ff", "#ff33a6", "#33a6ff"];
+            const body = document.body;
+            const currentColor = body.style.backgroundColor;
+            const randomColor = colors[Math.floor(Math.random() * colors.length)];
 
-- 👨‍💻 You can find all of my projects on [GitHub](https://github.com/Aditya-Nagariya).
+            // Change the background color
+            body.style.backgroundColor = randomColor;
 
-- 🤔 I'm open to collaborations and help in Competitive Programming.
+            // Reset the color after 2 seconds
+            setTimeout(() => {
+                body.style.backgroundColor = currentColor;
+            }, 2000);
+        }
+    </script>
 
-- 💬 Ask me about anything related to technology, programming, or design.
-
-- 📫 Reach out to me at [adityanagariyav@gmail.com](mailto:adityanagariyav@gmail.com).
-
-- ⚡ Fun fact: "Design is not just what it looks like and feels like. Design is how it works." - Steve Jobs
-
-<!-- Social Links -->
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-  <a href="https://www.linkedin.com/in/aditya-nagariya-14483a239/" target="_blank">
-    <img src="https://your-linkedin-icon-url.com" alt="LinkedIn" height="30" width="40" />
-  </a>
-  <a href="https://www.hackerrank.com/adityanagariyav" target="_blank">
-    <img src="https://your-hackerrank-icon-url.com" alt="HackerRank" height="30" width="40" />
-  </a>
-</p>
-
-<!-- Languages and Tools -->
-<h3 align="left">Languages and Tools:</h3>
-<p align="left">
-  <a href="https://www.python.org" target="_blank" rel="noreferrer">
-    <img src="https://your-python-icon-url.com" alt="Python" width="40" height="40"/>
-  </a>
-  <!-- Add more icons for your tools and languages -->
-</p>
-
-<!-- Profile Stats -->
-<p align="left">
-  <img src="https://komarev.com/ghpvc/?username=Aditya-Nagariya&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
-</p>
-
-<p>
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=Aditya-Nagariya&show_icons=true&locale=en&layout=compact" alt="Top Languages" />
-</p>
-
-<p>
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=Aditya-Nagariya&show_icons=true&locale=en" alt="GitHub Stats" />
-</p>
-
-<p>
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Aditya-Nagariya&" alt="GitHub Streak" />
-</p>
+    <!-- Add a button to trigger the background color change -->
+    <button onclick="changeBackgroundColor()">Change Background Color</button>
+</body>
+</html>
