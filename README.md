@@ -24,11 +24,7 @@
             alt="https://www.linkedin.com/in/aditya-nagariya-14483a239/" height="30" width="40" /></a>
     <a href="https://www.hackerrank.com/adityanagariyav" target="blank"><img align="center"
             src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg"
-            height="30" width="40" /></a>
-</p>🖼 <h3 align="left">Finding Oppurnity : </h3>
-<a href="https://en.wikipedia.org/wiki/Computer_security" target="_blank" rel="noreferrer"> <img
-    src="https://www.food-safety.com/ext/resources/Images/2023/Apr_May/Cyber-Img1-900.jpg?1681140266" alt=“CyberSecurity” width="80" height="110" />
-</p>            
+            height="30" width="40" /></a>           
 </p>🖼 <h3 align="left">Languages and Tools:</h3>
 <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img
         src="https://www.python.org/static/img/python-logo@2x.png" alt=“Python” width="40" height="40" />
