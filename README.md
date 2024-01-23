@@ -27,7 +27,7 @@
             height="30" width="40" /></a>
 </p>🖼 <h3 align="left">Finding Oppurnity : </h3>
 <a href="https://en.wikipedia.org/wiki/Computer_security" target="_blank" rel="noreferrer"> <img
-    src="https://www.food-safety.com/ext/resources/Images/2023/Apr_May/Cyber-Img1-900.jpg?1681140266" alt=“CyberSecurity” width="80" height="80" />
+    src="https://www.food-safety.com/ext/resources/Images/2023/Apr_May/Cyber-Img1-900.jpg?1681140266" alt=“CyberSecurity” width="80" height="110" />
 </p>            
 </p>🖼 <h3 align="left">Languages and Tools:</h3>
 <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img
