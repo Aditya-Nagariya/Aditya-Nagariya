@@ -6,17 +6,17 @@
 
 - 🔭 I’m currently working on Making my problem solving skills better
 
-- 🌱 I’m currently learning Python & DSA
+- 🌱 I’m currently Learning CyberSecurity
 
 - 👨‍💻 All of my projects are available at [Aditya-Nagariya](https://github.com/Aditya-Nagariya)
   
-- 🤔 I’m looking for help with ...Competative Programming
+- 🤔 I’m looking for help with ...CyberSecurity
 
-- 💬 Ask me about Anything
+- 💬 Ask me about CyberSecurity
 
 - 📫 How to reach me adityanagariyav@gmail.com
   
-- ⚡ Fun fact: “Design is not just what it looks like and feels like. Design is how it works.”
+- ⚡ Quote : “Veni, vidi, vici”
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
