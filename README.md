@@ -27,7 +27,7 @@
             height="30" width="40" /></a>
 </p>🖼 <h3 align="left">Finding Oppurnity : </h3>
 <a href="https://en.wikipedia.org/wiki/Computer_security" target="_blank" rel="noreferrer"> <img
-    src="https://www.freepik.com/free-vector/lock-shield-cyber-security-technology-blue-tone_16406569.htm#query=cyber%20security%20logo&position=12&from_view=keyword&track=ais&uuid=79ca4cc2-6943-4694-bb44-5467071f136f" alt=“CyberSecurity” width="80" height="80" />
+    src="https://www.food-safety.com/ext/resources/Images/2023/Apr_May/Cyber-Img1-900.jpg?1681140266" alt=“CyberSecurity” width="80" height="80" />
 </p>            
 </p>🖼 <h3 align="left">Languages and Tools:</h3>
 <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img
