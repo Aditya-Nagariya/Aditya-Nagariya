@@ -70,6 +70,25 @@ Git | VS Code | MongoDB | Node.js | Express.js | React.js
 
 <!--START_FEATURED-->
 
+
+<a href="https://github.com/Aditya-Nagariya/kali_security_maintenance">
+  <div align="center">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Aditya-Nagariya&repo=kali_security_maintenance&theme=radical" />
+  </div>
+</a>
+
+<a href="https://github.com/Aditya-Nagariya/aditya-nagariya.github.io">
+  <div align="center">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Aditya-Nagariya&repo=aditya-nagariya.github.io&theme=radical" />
+  </div>
+</a>
+
+<a href="https://github.com/Aditya-Nagariya/Steganography">
+  <div align="center">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Aditya-Nagariya&repo=Steganography&theme=radical" />
+  </div>
+</a>
+
 <!--END_FEATURED-->
 
 ---
