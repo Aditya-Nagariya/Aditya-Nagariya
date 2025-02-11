@@ -47,22 +47,13 @@ Linux (Kali, Parrot) | MacOS | AWS (basic)
 Git | VS Code | MongoDB | Node.js | Express.js | React.js
 ```
 
-## 🚀 Featured Projects
+## 📌 Featured Repositories
 
-### [Advanced Steganography Security System](https://github.com/Aditya-Nagariya/Steganography)
-- Engineered a steganography tool with 99.9% data integrity retention
-- Integrated AES-256 encryption
-- Built GUI using PyQt5
+<div align="center">
 
-### [RESTful Book Management System](https://github.com/Aditya-Nagariya/MERN-Stack-Project)
-- Full-stack application using MERN Stack
-- Handles 100+ concurrent requests
-- Secure user authentication
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Aditya-Nagariya&repo=${repo-name}&theme=radical)](https://github.com/Aditya-Nagariya/${repo-name})
 
-### [Clima — Weather Application](https://github.com/Aditya-Nagariya/Flutter_Self)
-- Cross-platform Flutter application
-- 95% crash-free sessions
-- Responsive design for multiple screen sizes
+</div>
 
 ## 📈 GitHub Stats
 
