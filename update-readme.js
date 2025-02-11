@@ -36,6 +36,7 @@ function makeGitHubRequest() {
         'Content-Type': 'application/json',
         'User-Agent': 'Node.js',
         'Authorization': `Bearer ${process.env.GITHUB_TOKEN.trim()}`
+        'Cache-Control': 'no-cache'
       }
     };
 
