@@ -14,7 +14,17 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          token: ${{ secrets.MY_PAT }}
+          token: ${{ secrets.MY_GITHUB_TOKEN }}
+          repository: Aditya-Nagariya/Aditya-Nagariya
+          ssh-strict: true
+          persist-credentials: true
+          clean: true
+          sparse-checkout-cone-mode: true
+          fetch-depth: 1
+          fetch-tags: false
+          lfs: false
+          submodules: false
+          set-safe-directory: true
 
       - uses: actions/setup-node@v2
         with:
@@ -23,7 +33,7 @@ jobs:
       - name: Update README
         run: node update-readme.js
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
       
       - name: Commit changes
         run: |
