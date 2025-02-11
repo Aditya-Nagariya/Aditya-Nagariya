@@ -54,9 +54,6 @@ function makeGitHubRequest() {
 // Function to generate repository cards HTML
 function generateRepoCards(pinnedRepos) {
   return pinnedRepos.map(repo => {
-    const languageColor = repo.primaryLanguage ? repo.primaryLanguage.color : '#000000';
-    const languageName = repo.primaryLanguage ? repo.primaryLanguage.name : 'None';
-    
     return `
 <a href="${repo.url}">
   <div align="center">
@@ -77,17 +74,15 @@ async function updateReadme() {
     const readmePath = './README.md';
     let readme = fs.readFileSync(readmePath, 'utf8');
 
-    // Generate new repository section from pinned repositories
+    // Generate new repository section dynamically
     const repoCards = generateRepoCards(pinnedRepos);
-    
-    // Define markers for dynamic update
+
+    // Define dynamic section markers (using comment markers)
     const startMarker = '<!--START_FEATURED-->';
     const endMarker = '<!--END_FEATURED-->';
-    
-    // Create new dynamic section with markers
     const newSection = `${startMarker}\n\n${repoCards}\n\n${endMarker}`;
-    
-    // Locate the markers in the README
+
+    // Find markers in the README
     const startIndex = readme.indexOf(startMarker);
     const endIndex = readme.indexOf(endMarker);
     
@@ -98,7 +93,7 @@ async function updateReadme() {
       fs.writeFileSync(readmePath, readme);
       console.log('README updated successfully!');
     } else {
-      console.error('Could not find section markers in README');
+      console.error('Could not find section markers in README. Please add them to your README.md file.');
     }
   } catch (error) {
     console.error('Error updating README:', error);
