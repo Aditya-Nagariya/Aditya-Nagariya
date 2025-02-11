@@ -68,6 +68,12 @@ Git | VS Code | MongoDB | Node.js | Express.js | React.js
   </div>
 </a>
 
+<a href="https://github.com/Aditya-Nagariya/h4cker">
+  <div align="center">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Aditya-Nagariya&repo=h4cker&theme=radical" />
+  </div>
+</a>
+
 ## 📈 GitHub Stats
 
 <div align="center">
