@@ -89,6 +89,12 @@ Git | VS Code | MongoDB | Node.js | Express.js | React.js
   </div>
 </a>
 
+<a href="https://github.com/Aditya-Nagariya/Aditya-Nagariya">
+  <div align="center">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Aditya-Nagariya&repo=Aditya-Nagariya&theme=radical" />
+  </div>
+</a>
+
 <!--END_FEATURED-->
 
 ---
