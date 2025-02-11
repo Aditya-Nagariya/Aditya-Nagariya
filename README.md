@@ -112,9 +112,3 @@ Git | VS Code | MongoDB | Node.js | Express.js | React.js
 <div align="center">
   <sub>Designed with passion by <a href="https://github.com/Aditya-Nagariya">Aditya Nagariya</a> | 𝗙𝘂𝘁𝘂𝗿𝗶𝘀𝘁𝗶𝗰 & 𝗛𝗮𝗰𝗸𝗲𝗿‑inspired</sub>
 </div>
-
----
-
-*Note:* If you see any formatting issues because of nested triple backticks in the code segments (like in the "Technical Arsenal" section), you can replace them with HTML `<pre>` tags or remove the extra backticks in your final file.
-
----
