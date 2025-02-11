@@ -35,7 +35,7 @@ function makeGitHubRequest() {
       headers: {
         'Content-Type': 'application/json',
         'User-Agent': 'Node.js',
-        'Authorization': `bearer ${process.env.GITHUB_TOKEN}`
+        'Authorization': `Bearer ${process.env.GITHUB_TOKEN.trim()}`
       }
     };
 
