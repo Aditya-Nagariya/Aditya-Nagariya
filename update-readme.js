@@ -1,4 +1,3 @@
-
 const fs = require('fs');
 const https = require('https');
 
@@ -35,7 +34,7 @@ function makeGitHubRequest() {
       headers: {
         'Content-Type': 'application/json',
         'User-Agent': 'Node.js',
-        'Authorization': `Bearer ${process.env.GITHUB_TOKEN.trim()}`
+        'Authorization': `Bearer ${process.env.GITHUB_TOKEN.trim()}`,
         'Cache-Control': 'no-cache'
       }
     };
@@ -78,20 +77,24 @@ async function updateReadme() {
     const readmePath = './README.md';
     let readme = fs.readFileSync(readmePath, 'utf8');
 
-    // Generate new repository section
+    // Generate new repository section from pinned repositories
     const repoCards = generateRepoCards(pinnedRepos);
     
-    // Replace repository section in README
-    const startMarker = '## 📌 Featured Repositories';
-    const endMarker = '## 📈 GitHub Stats';
+    // Define markers for dynamic update
+    const startMarker = '<!--START_FEATURED-->';
+    const endMarker = '<!--END_FEATURED-->';
     
-    const newSection = `## 📌 Featured Repositories\n\n${repoCards}\n\n`;
+    // Create new dynamic section with markers
+    const newSection = `${startMarker}\n\n${repoCards}\n\n${endMarker}`;
     
+    // Locate the markers in the README
     const startIndex = readme.indexOf(startMarker);
     const endIndex = readme.indexOf(endMarker);
     
     if (startIndex !== -1 && endIndex !== -1) {
-      readme = readme.slice(0, startIndex) + newSection + readme.slice(endIndex);
+      const before = readme.slice(0, startIndex);
+      const after = readme.slice(endIndex + endMarker.length);
+      readme = before + newSection + after;
       fs.writeFileSync(readmePath, readme);
       console.log('README updated successfully!');
     } else {
