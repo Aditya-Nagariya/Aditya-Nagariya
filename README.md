@@ -68,7 +68,9 @@ Git | VS Code | MongoDB | Node.js | Express.js | React.js
 
 ## 🚀 Featured Projects
 
+<!--START_FEATURED-->
 
+<!--END_FEATURED-->
 
 ---
 
