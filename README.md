@@ -29,7 +29,7 @@ I’m always on the lookout for the next big challenge in digital security.
 - **Currently Focused On:** Advanced penetration testing techniques  
 - **Learning:** Cutting-edge security tactics via TryHackMe and Hack The Box  
 - **Collaboration:** Open to innovative cybersecurity projects  
-- **Contact:** adityanagariyav@gmail.com
+- **Contact:** the.anonymous.hacker@icloud.com
 
 ---
 
@@ -124,8 +124,7 @@ Git | VS Code | MongoDB | Node.js | Express.js | React.js
 ## ⚡ Let’s Connect!
 
 <div align="center">
-  <a href="https://linkedin.com/in/aditya-nagariya-veni-vidi-vici"><strong>LinkedIn</strong></a> •
-  <a href="mailto:adityanagariyav@gmail.com"><strong>Email</strong></a> •
+  <a href="mailto:the.anonymous.hacker@icloud.com"><strong>Email</strong></a> •
   <a href="https://tryhackme.com/r/p/AdityaNagariya"><strong>TryHackMe</strong></a> •
   <a href="https://app.hackthebox.com/profile/1471799"><strong>HackTheBox</strong></a>
 </div>
