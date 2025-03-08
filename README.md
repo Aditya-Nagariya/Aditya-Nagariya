@@ -71,9 +71,9 @@ Git | VS Code | MongoDB | Node.js | Express.js | React.js
 <!--START_FEATURED-->
 
 
-<a href="https://github.com/Aditya-Nagariya/Kali_Linux_Security_and_Maintenance.sh">
+<a href="https://github.com/Aditya-Nagariya/Security">
   <div align="center">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Aditya-Nagariya&repo=Kali_Linux_Security_and_Maintenance.sh&theme=radical" />
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Aditya-Nagariya&repo=Security&theme=radical" />
   </div>
 </a>
 
